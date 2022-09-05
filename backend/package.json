@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend project of todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkwzk/todolist.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "zkwzk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkwzk/todolist/issues"
+  },
+  "homepage": "https://github.com/zkwzk/todolist#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
+}
