@@ -1,6 +1,6 @@
 import './App.css';
-import Item from './components/Item';
 import styled from 'styled-components'
+import ItemList from "./components/ItemList";
 
 const TaskListContainer = styled.div`
     max-width: 800px;
@@ -21,8 +21,7 @@ function App() {
         <>
             <Title>To-Do List</Title>
             <TaskListContainer className="App">
-                <Item task="add custom npm command" id={1}/>
-                <Item task="hahahaha" id={1}/>
+                <ItemList />
             </TaskListContainer>
         </>
     );
