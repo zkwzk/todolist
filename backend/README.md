@@ -5,4 +5,5 @@ Todolist Tasks:
 2. export module
 3. import module
 4. `npm start`
+   1. `curl --url http://localhost:3001`
 5. add a self command `npm run hello`
