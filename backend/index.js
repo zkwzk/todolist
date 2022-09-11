@@ -10,18 +10,16 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
-    res.send(getAll())
+    res.send(getAll());
 });
 
 app.post('/', (req, res) => {
-    console.log(req.body);
-    create(req.body.task);
-    res.sendStatus(200)
+    res.send(create(req.body.task));
 });
 
 app.post('/done', (req, res) => {
-    done(req.body.id);
-    res.sendStatus(200)
+    console.log(req);
+    res.send(done(req.body.id));
 });
 
 app.listen(port, () => {

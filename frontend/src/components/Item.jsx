@@ -26,7 +26,7 @@ export default function Item(props) {
     const {id, task} = props.item;
     return (
         <ItemContainer id={id}>
-            <CheckBoxContainer><input type={"checkbox"}/></CheckBoxContainer>
+            <CheckBoxContainer><input type={"checkbox"} onChange={props.onChange}/></CheckBoxContainer>
             <ItemDescriptionContainer>{task}</ItemDescriptionContainer>
         </ItemContainer>
     )
