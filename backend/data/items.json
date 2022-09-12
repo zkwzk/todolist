@@ -1,1 +1,22 @@
-[{"id":"ef7659f2-6e68-4605-bcae-42057d1f4d18","task":"add a custom command"}]
+[
+  {
+    "id": "ef7659f2-6e68-4605-bcae-42057d1f4d18",
+    "task": "1. add dependency of Express.js"
+  },
+  {
+    "id": "6f7659f2-6e68-4605-bcae-42057d1f4d12",
+    "task": "2. implement and export a module function of create task"
+  },
+  {
+    "id": "1f7659f2-6e68-4605-bcae-42057d1f4d12",
+    "task": "3. import the module function and use it"
+  },
+  {
+    "id": "2f7659f2-6e68-4605-bcae-42057d1f4d12",
+    "task": "4. start the application and test the function"
+  },
+  {
+    "id": "e37659f2-6e68-4605-bcae-42057d1f4d12",
+    "task": "5. add a custom command npm run hello"
+  }
+]

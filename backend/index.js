@@ -14,7 +14,8 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    res.send(create(req.body.task));
+    const items = create(req.body.task)
+    res.send(items);
 });
 
 app.post('/done', (req, res) => {
