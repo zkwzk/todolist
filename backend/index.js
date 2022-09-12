@@ -1,5 +1,6 @@
 import express from 'express';
-import {create, done, getAll} from './apis/items.js'
+// todo-3.1: import the module function we just exported
+import {done, getAll} from './apis/items.js'
 import cors from "cors";
 
 const app = express();
@@ -14,7 +15,9 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    const items = create(req.body.task)
+    // todo-3.2: use the module we just exported,
+    // hint: use the variable items to keep return value of the create method
+    const items = {id: '12345', task: 'remove me'}
     res.send(items);
 });
 
