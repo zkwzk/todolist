@@ -1,6 +1,8 @@
-# todolist
+# Todolist
 
-example project for learning react and nodejs
+![todo](todo.png)
+
+This is an example project for learning nodejs, go to the [readme file](./backend/README.md) under the `backend` folder to start
 
 ## Backend project
 
