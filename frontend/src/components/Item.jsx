@@ -3,7 +3,6 @@ import React from 'react';
 import styled from 'styled-components'
 
 const ItemContainer = styled.div`
-    max-width: 800px;
     margin: 10px auto;
     text-align: left;
     padding: 20px 0;
@@ -16,6 +15,10 @@ const ItemContainer = styled.div`
 const CheckBoxContainer = styled.div`
     flex: 1;
     max-width: 30px;
+    
+    input[type="checkbox"] {
+        cursor: pointer;
+    }
 `
 
 const ItemDescriptionContainer = styled.div`
