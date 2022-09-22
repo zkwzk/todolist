@@ -27,10 +27,9 @@ npm install
 
 ## Backend project
 
-`cd backend`
+There are two api existing
+GET `/` (will get all of the items)
+POST `/done` (mark the task as done)
 
-`npm install`
-
-`npm start`
-
-it will run at port `3001`, url: `http://localhost:3001`
+We are going to finish the third api which is 
+POST `/` (create a new task)
