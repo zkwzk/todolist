@@ -26,10 +26,14 @@ npm install
 2.Follow Hints ine the Go to the [readme file](./backend/README.md) under the `backend` folder and start
 
 ## Backend project
+It will run at [http://localhost:3001](http://localhost:3001)
 
-There are two api existing
-GET `/` (will get all of the items)
-POST `/done` (mark the task as done)
+### Existing api
 
-We are going to finish the third api which is 
-POST `/` (create a new task)
+`GET /` (will get all of the items)
+
+`POST /done` (mark the task as done)
+
+### To be done api
+
+`POST /` (create a new task)
